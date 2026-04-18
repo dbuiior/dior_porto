@@ -58,6 +58,7 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "E-Commerce Website",
+    category: "Web",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
@@ -66,6 +67,7 @@ export const PROJECTS = [
   },
   {
     title: "Web Design",
+    category: "Web",
     image: project2,
     description:
       "In my web design projects, I focus on creating visually appealing and user-friendly websites that enhance the overall user experience. Each project involves careful consideration of layout, color schemes, typography, and imagery to ensure a cohesive and engaging design",
@@ -74,6 +76,7 @@ export const PROJECTS = [
   },
   {
     title: "Portfolio Website",
+    category: "Web",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -81,6 +84,7 @@ export const PROJECTS = [
   },
   {
     title: "Data Analytics",
+    category: "Data",
     image: project4,
     description:
       "A scientific study focused on analyzing sequences of data by comparing various machine learning methods to achieve optimal accuracy",
