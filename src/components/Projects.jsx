@@ -46,11 +46,10 @@ const Projects = () => {
         })}
       </div>
 
-      {/* Project List */}
       <div className="flex flex-col gap-4">
         <AnimatePresence mode="wait">
           <motion.div
-            key={active} // 🔥 penting biar animasi filter jalan
+            key={active} // 
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
