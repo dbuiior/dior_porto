@@ -1,8 +1,4 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
-// import project5 from "../assets/projects/project-5.png";
+
 
 export const HERO_CONTENT = `I am an enthusiastic full stack developer who enjoys building strong and scalable web applications. With years of experience, I have developed skills in HTML, C, CSS, JavaScript, React, and MySQL, as well as working with Excel. My goal is to use my knowledge to create creative solutions that help businesses grow and provide great experiences for users.
 
@@ -59,7 +55,6 @@ export const PROJECTS = [
   {
     title: "E-Commerce Website",
     category: "Web",
-    image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
     technologies: ["HTML", "CSS","SQL Server"],
@@ -68,7 +63,6 @@ export const PROJECTS = [
   {
     title: "Web Design",
     category: "Web",
-    image: project2,
     description:
       "In my web design projects, I focus on creating visually appealing and user-friendly websites that enhance the overall user experience. Each project involves careful consideration of layout, color schemes, typography, and imagery to ensure a cohesive and engaging design",
     technologies: ["HTML", "CSS", "JavaScript", "Figma"],
@@ -77,7 +71,6 @@ export const PROJECTS = [
   {
     title: "Portfolio Website",
     category: "Web",
-    image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind"],
@@ -85,7 +78,6 @@ export const PROJECTS = [
   {
     title: "Data Analytics",
     category: "Data",
-    image: project4,
     description:
       "A scientific study focused on analyzing sequences of data by comparing various machine learning methods to achieve optimal accuracy",
     technologies: ["ipynb", "Jupyter Notebook","mySQL"],

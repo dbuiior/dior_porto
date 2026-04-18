@@ -1,4 +1,3 @@
-import aboutImg from "../assets/about.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -25,7 +24,6 @@ const About = () => {
           <div className="flex items-center justify-center">
             <img
               className="rounded-2xl transition duration-300 hover:scale-105"
-              src={aboutImg}
               alt="about"
             />
           </div>
@@ -40,7 +38,6 @@ const About = () => {
         >
           <div className="flex items-center justify-center h-full">
             <p className="my-2 max-w-xl py-6 text-neutral-300 leading-relaxed">
-              {ABOUT_TEXT}
             </p>
           </div>
         </motion.div>
