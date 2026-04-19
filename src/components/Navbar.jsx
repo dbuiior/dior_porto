@@ -13,7 +13,6 @@ const Navbar = () =>{
             <a href="https://www.linkedin.com/in/adior-gandawidjaja-8212ab293/" target="_blank"><FaLinkedin /></a>
             <a href="https://github.com/dbuiior" target="_blank"><FaGithub /></a>
             <a href="https://www.instagram.com/dior.uyu/" target="_blank"><FaInstagram /></a>
-            <FaSquareXTwitter/>
         </div>
     </nav>
     );

@@ -1,6 +1,7 @@
+import { link } from "framer-motion/client";
 
 
-export const HERO_CONTENT = `I am an enthusiastic full stack developer who enjoys building strong and scalable web applications. With years of experience, I have developed skills in HTML, C, CSS, JavaScript, React, and MySQL, as well as working with Excel. My goal is to use my knowledge to create creative solutions that help businesses grow and provide great experiences for users.
+export const HERO_CONTENT = `I'm a data engineer enthusiast with a strong passion for exploring how data can drive smarter decisions. I enjoy learning and experimenting with modern data tools, technologies, and frameworks used in today's industry. Continuously improving my skills, I'm excited to build efficient data pipelines and contribute to impactful, data-driven solutions.
 
 .`;
 
@@ -8,7 +9,7 @@ export const ABOUT_TEXT = `I am constantly eager to learn new technologies and a
 
 export const EXPERIENCES = [
   {
-    year: "On going Project",
+    year: "2024",
     role: "Read File for Delivery Documentation",
     company: "Business Report",
     description: `Creating a delivery report by reading a CSV file, which will then be sent to the database. This process enables us to calculate business profit and track the quantity of items ordered.`,
@@ -82,6 +83,54 @@ export const PROJECTS = [
       "A scientific study focused on analyzing sequences of data by comparing various machine learning methods to achieve optimal accuracy",
     technologies: ["ipynb", "Jupyter Notebook","mySQL"],
     link:"https://colab.research.google.com/drive/1zfjqVsEVwZe9GsaSA__5J6TQICxEIW4j#scrollTo=JReXXYW_TmJk",
+  },
+  {
+    title: "Movie Pipeline",
+    category: "Data",
+    description:
+    "End-to-end data engineering project focused on processing film data from CSV files into structured, analysis-ready data. This pipeline is designed to simulate the data engineering workflow in a production environment.",
+    technologies: ["Python","DBT","PostgreSQL","Dokcer","Apache Airflow"],
+    link: "https://github.com/dbuiior/End-To-End-Netflix-Movie-s-Pipeline",
+  },
+  {
+    title: "Weather API",
+    category: "Data",
+    description:
+    "End-to-end data engineering project that aims to retrieve weather data from the public Weather API, store it in a database, and automate the data orchestration and visualization. This project is designed to simulate near-real-time data pipeline commonly used in monitoring and analytics for weather",
+    technologies: ["Python","DBT","PostgreSQL","Dokcer","Apache Airflow","Apache Superset"],
+    link: "https://github.com/dbuiior/Build_WeatherAPI_Pipeline",
+  },
+  {
+    title: "Marketplace Simmulation",
+    category: "Data",
+    description:
+    "A data streaming project that simulates transaction activity in a marketplace by generating dummy transaction data, then streaming it in real-time through producer and consumer mechanisms.",
+    technologies: ["Python","PostgreSQL","Dokcer","Apache Airflow","Apache Kafka"],
+    link: "https://github.com/dbuiior/Marketplace_Streaming_Data",
+  },
+  {
+    title: "Career Lattice",
+    category: "Web",
+    description:
+    "Developed a job vacancy web application that bridges companies and job seekers, streamlining the job search and application process.",
+    technologies: ["Laravel","MySQL","Bootstrap","HTML"],
+    link: "https://github.com/CareerLattice/careerlatice-web-app",
+  },
+  {
+    title: "Spotify-Transformation Data",
+    category: "Data",
+    description:
+    "Developed automated scheduling architecture for transformation data and store it into database",
+    technologies: ["Python","DBT","PostgreSQL","Dokcer","Apache Airflow"],
+    link: "https://github.com/dbuiior/Spotify-Data-Transformation",
+  },
+  {
+    title: "Open-Flights",
+    category: "Data",
+    description:
+    "Implementing medallion ETL architecture ingestion, transform, aggregation and inserting into data warehouse",
+    technologies: ["Python","Snowflake","PostgreSQL","Dokcer","Apache Airflow"],
+    link: "https://github.com/dbuiior/Spotify-Data-Transformation",
   },
 ];
 
