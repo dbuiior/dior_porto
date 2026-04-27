@@ -138,3 +138,16 @@ export const CONTACT = {
   phoneNo: "+6287853330699",
   email: "adior.gandawidjaja@gmail.com",
 };
+
+export const CERTIFICATES = [
+  {
+    title: "Internship",
+    issuer: "BMT",
+    image: "/certificates/Internship.jpeg"
+  },
+  {
+    title: "IT Bootcamp Back End",
+    issuer: "BINUS UNIVERSITY",
+    image: "/certificates/IT_BackEnd_BootCamp.jpeg"
+  }
+]
