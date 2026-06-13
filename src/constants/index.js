@@ -89,7 +89,7 @@ export const PROJECTS = [
     category: "Data",
     description:
     "End-to-end data engineering project focused on processing film data from CSV files into structured, analysis-ready data. This pipeline is designed to simulate the data engineering workflow in a production environment.",
-    technologies: ["Python","DBT","PostgreSQL","Dokcer","Apache Airflow"],
+    technologies: ["Python","DBT","PostgreSQL","Docker","Apache Airflow"],
     link: "https://github.com/dbuiior/End-To-End-Netflix-Movie-s-Pipeline",
   },
   {
@@ -97,7 +97,7 @@ export const PROJECTS = [
     category: "Data",
     description:
     "End-to-end data engineering project that aims to retrieve weather data from the public Weather API, store it in a database, and automate the data orchestration and visualization. This project is designed to simulate near-real-time data pipeline commonly used in monitoring and analytics for weather",
-    technologies: ["Python","DBT","PostgreSQL","Dokcer","Apache Airflow","Apache Superset"],
+    technologies: ["Python","DBT","PostgreSQL","Docker","Apache Airflow","Apache Superset"],
     link: "https://github.com/dbuiior/Build_WeatherAPI_Pipeline",
   },
   {
@@ -105,7 +105,7 @@ export const PROJECTS = [
     category: "Data",
     description:
     "A data streaming project that simulates transaction activity in a marketplace by generating dummy transaction data, then streaming it in real-time through producer and consumer mechanisms.",
-    technologies: ["Python","PostgreSQL","Dokcer","Apache Airflow","Apache Kafka"],
+    technologies: ["Python","PostgreSQL","Docker","Apache Airflow","Apache Kafka"],
     link: "https://github.com/dbuiior/Marketplace_Streaming_Data",
   },
   {
@@ -121,7 +121,7 @@ export const PROJECTS = [
     category: "Data",
     description:
     "Developed automated scheduling architecture for transformation data and store it into database",
-    technologies: ["Python","DBT","PostgreSQL","Dokcer","Apache Airflow"],
+    technologies: ["Python","DBT","PostgreSQL","Docker","Apache Airflow"],
     link: "https://github.com/dbuiior/Spotify-Data-Transformation",
   },
   {
@@ -129,9 +129,17 @@ export const PROJECTS = [
     category: "Data",
     description:
     "Implementing medallion ETL architecture ingestion, transform, aggregation and inserting into data warehouse",
-    technologies: ["Python","Snowflake","PostgreSQL","Dokcer","Apache Airflow"],
+    technologies: ["Python","Snowflake","PostgreSQL","Docker","Apache Airflow"],
     link: "https://github.com/dbuiior/Spotify-Data-Transformation",
   },
+  {
+    title: "Airline Reservation & Notification System",
+    category: "Back-End",
+    description:
+    "Developed a server-side RESTful API to support flight reservation and booking operations, including user authentication, flight management, seat reservation, and notification processing.",
+    technologies: ["Gin","Gorm","PostgreSQL","RabbitMQ","Postman"],
+    link: "https://github.com/dbuiior/Airline_Reservation_and_Notification_System",
+  }
 ];
 
 export const CONTACT = {

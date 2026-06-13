@@ -2,7 +2,7 @@ import { PROJECTS } from "../constants";
 import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
-const categories = ["All", "Web", "Data", "Other"];
+const categories = ["All", "Web", "Data", "Back-End"];
 
 const Projects = () => {
   const [active, setActive] = useState("All");
