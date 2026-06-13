@@ -11,6 +11,7 @@ import { SiApachespark } from "react-icons/si";
 import { FaLaravel } from "react-icons/fa";
 import { SiDjango } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
+import { FaGolang } from "react-icons/fa6";
 import { motion } from "framer-motion";
 
 const icon = (duration) => ({
@@ -40,6 +41,7 @@ const techs = [
   { component: SiDjango,         color: "#44B78B", duration: 5.5 },
   { component: FaHtml5,          color: "#E34F26", duration: 9   },
   { component: FaCss3Alt,       color: "#1572B6", duration: 9.5},
+  { component: FaGolang,         color: "#00ADD8", duration: 10.5}
 ];
 
 const Technologies = () => {

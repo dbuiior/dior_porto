@@ -1,9 +1,11 @@
 import { link } from "framer-motion/client";
 
 
-export const HERO_CONTENT = `I'm a data engineer enthusiast with a strong passion for exploring how data can drive smarter decisions. I enjoy learning and experimenting with modern data tools, technologies, and frameworks used in today's industry. Continuously improving my skills, I'm excited to build efficient data pipelines and contribute to impactful, data-driven solutions.
+// export const HERO_CONTENT = `I'm a data engineer enthusiast with a strong passion for exploring how data can drive smarter decisions. I enjoy learning and experimenting with modern data tools, technologies, and frameworks used in today's industry. Continuously improving my skills, I'm excited to build efficient data pipelines and contribute to impactful, data-driven solutions.
 
-.`;
+// .`;
+
+export const HERO_CONTENT = `I'm passionate about Data Engineering and Software Development, enjoying the process of building scalable applications, designing efficient data pipelines, and solving real-world problems through technology. I continuously explore modern tools and frameworks to enhance my skills and create reliable, data-driven solutions.`;
 
 export const ABOUT_TEXT = `I am constantly eager to learn new technologies and adapt to evolving challenges in the tech industry. I thrive in collaborative environments, enjoy solving complex problems, and am always looking for ways to expand my knowledge.Whether it's exploring new frameworks, improving my coding practices, or learning about the latest industry trends.I actively seek opportunities for growth, both through hands-on experience and through continuous learning, ensuring that I can bring innovative and effective solutions to every project I work on.`;
 
